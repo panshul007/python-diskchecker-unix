@@ -8,8 +8,8 @@ import smtplib
 from email.mime.text import MIMEText
 
 
-username="noreply@innoplexia.com"
-password="oHdsadm2394ru23f23f22H"
+username="username@domain.com"
+password="guessme"
 
 
 def prepareMessage(dsf,recipients,machine):
