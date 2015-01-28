@@ -10,11 +10,10 @@ from mainpackage.DiskChecker import disk_usage, format_usage
 from sys import argv
 from mainpackage.EmailUtil import sendDiskFullMail
 
-panshul = "panshul@innoplexia.com"
-christian = "christian@innoplexia.com"
-rene = "rene@innoplexia.com"
+panshul = "panshul@domain.com"
+user2 = "user2@domain.com"
 
-recepients = [panshul,christian,rene]
+recepients = [panshul,user2]
 
 machineName, usage_alert_level,path = "panplexiaSuper",5.0,'/run/user'
 
